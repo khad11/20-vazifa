@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(24, 145, 231);
+  background: linear-gradient(
+    18deg,
+    rgba(24, 145, 231, 1) 30%,
+    rgba(194, 90, 242, 1) 72%
+  );
+}
+.main-event-div {
+  max-width: 800px;
+  max-height: 700px;
+  margin: 110px auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.main-event-div h1 {
+  max-width: 100%;
+  max-height: 60px;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.form-1,
+.form-2,
+.form-3,
+.form-4,
+.form-5 {
+  display: flex;
+  align-items: center;
+}
+.form {
+  padding: 30px 50px;
+}
+.form h2 {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 30px;
+}
+.form label {
+  padding-left: 15px;
+}
+.form-1 input {
+  padding: 15px;
+  border: none;
+  background-color: rgb(228, 223, 223);
+  border-radius: 5px;
+  width: 240px;
+}
+.form-2 input {
+  padding: 15px;
+  border: none;
+  background-color: rgb(228, 223, 223);
+  border-radius: 5px;
+  width: 495px;
+}
+.form-3 input {
+  padding: 15px;
+  border: none;
+  background-color: rgb(228, 223, 223);
+  border-radius: 5px;
+  width: 495px;
+  position: relative;
+  left: 40px;
+}
+.form-4 input {
+  padding: 15px;
+  border: none;
+  background-color: rgb(228, 223, 223);
+  border-radius: 5px;
+  width: 240px;
+}
+.form-5 input {
+  padding: 15px;
+  border: none;
+  background-color: rgb(228, 223, 223);
+  border-radius: 5px;
+  width: 495px;
+  position: relative;
+  left: 30px;
+}
+
+.yes-no {
+  position: relative;
+  left: 15px;
+  bottom: 20px;
+}
+.submit {
+  border: none;
+  padding: 15px 50px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  left: 30px;
+}
+.form-1 label {
+  position: relative;
+  left: 40px;
+}
+
+.form-4 label {
+  position: relative;
+  left: 40px;
+}
